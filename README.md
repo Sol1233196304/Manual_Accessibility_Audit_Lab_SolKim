@@ -34,17 +34,17 @@ Audit and remediate:
 - form labels and required states
     Issue: The form did not provide visual indicator that the email field is also required, and it did not have associated labels. 
     Fix: I added a visible indicator to the Email field and associated labels. 
-    Retest result:
+    Retest result: The form now has a visible indicator, and I also re-ran the Lighthouse accessibility test and confirmed that it is no longer an issue. 
 - table caption/headers
-    Issue: 
-    Fix:
-    Retest result:
+    Issue: The table was missing header cells.
+    Fix: I changed the first row to heder cells by switching td to th. 
+    Retest result: The table has header cells now. 
 - image alternatives
-    Issue:
-    Fix:
-    Retest result:
+    Issue: One of the images was missing alt text. 
+    Fix: I added alt text. 
+    Retest result: I added alt text on the missing image. However, I copied from the alt text from another image because it was identical, but it did not provide descriptive information. 
 - motion preference
-    Issue:
+    Issue: 
     Fix:
     Retest result:
 
