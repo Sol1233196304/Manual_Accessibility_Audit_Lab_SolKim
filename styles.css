@@ -32,7 +32,7 @@ input:focus {
   padding: 20px 32px;
   color: #ffffff;
   background: #8c1d40;
-    max-width: 1200px;
+  max-width: 1200px;
 
 }
 
@@ -40,6 +40,8 @@ input:focus {
   color: #ffffff;
   margin-left: 18px;
   text-decoration: none;
+  line-height: 1.4;
+  font-size: clamp(1rem, .96rem + .2vw, 1.125rem);
 }
 
 .brand {

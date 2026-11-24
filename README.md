@@ -44,8 +44,9 @@ Audit and remediate:
     Fix: I added alt text. 
     Retest result: I added alt text on the missing image. However, I copied from the alt text from another image because it was identical, but it did not provide descriptive information. 
 - motion preference
-    Issue: 
-    Fix:
-    Retest result:
+    Issue: The website did not provide a reduced motion feature. 
+    Fix: I added a media query for prefer-reduced-motion. 
+    Retest result: I used DevTools to enable prefers-reduced-motion and confirmed that the animation on card image stops.
+    
 
 Document each issue, fix, and retest result.
