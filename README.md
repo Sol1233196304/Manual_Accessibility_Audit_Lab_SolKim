@@ -14,9 +14,9 @@ Audit and remediate:
 - landmarks and heading structure
     Issue: The heading structure in the hero section skipped h2. 
     Fix: I switched the h3 to an h2. 
-    Retest result: I checked the page outline with W3C Html validator and confirmed that it 
+    Retest result: I checked the page outline with W3C Html validator and reran the Lighthouse to confirm that heading elements are in a sequentially descending order. 
 - link and button names
-    Issue: The button does not have a name.
+    Issue: The button does not have an accessible name.
     Fix: Add a name 
     Retest result:
 - keyboard access and visible focus
